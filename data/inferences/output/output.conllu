@@ -1,0 +1,40 @@
+# newdoc id = /veld/input/1/input.txt
+# newpar
+# sent_id = 1
+# text = Nachdem Mose, der Knecht des Herrn, gestorben war, sagte der Herr zu Josua, dem Sohn Nuns, dem Diener des Mose:
+1	Nachdem	Nachdem	SCONJ	KOUS	_	9	mark	_	_
+2	Mose	Mose	PROPN	NE	Person=3	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	$,	PunctType=Comm	5	punct	_	_
+4	der	der	DET	ART	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Knecht	Knecht	NOUN	NN	Gender=Fem|Number=Sing|Person=3	2	appos	_	_
+6	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Herrn	Herr	NOUN	NN	Gender=Masc|Number=Sing|Person=3	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	PunctType=Comm	5	punct	_	_
+9	gestorben	sterben	VERB	VVPP	Aspect=Perf|VerbForm=Part	12	ccomp	_	_
+10	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
+11	,	,	PUNCT	$,	PunctType=Comm	9	punct	_	_
+12	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	der	der	DET	ART	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Herr	Herr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+15	zu	zu	ADP	APPR	AdpType=Prep|Case=Dat	16	case	_	_
+16	Josua	Josua	PROPN	NE	Gender=Masc|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	PunctType=Comm	19	punct	_	_
+18	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Sohn	Sohn	NOUN	NN	Gender=Masc|Number=Sing|Person=3	16	appos	_	_
+20	Nuns	Nuns	PROPN	NE	Case=Gen|Person=3	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	$,	PunctType=Comm	19	punct	_	_
+22	dem	dem	DET	ART	Case=Dat|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Diener	Diener	NOUN	NN	Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+24	des	des	DET	ART	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Mose	Mose	PROPN	NE	Person=3	23	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	$.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 2
+# text = Mein Knecht Mose ist gestorben.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Knecht	Knecht	NOUN	NN	Gender=Neut|Number=Sing|Person=3	5	nsubj:pass	_	_
+3	Mose	Mose	PROPN	NE	Person=3	2	flat:name	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	gestorben	sterben	VERB	VVPP	Aspect=Perf|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	PunctType=Peri	5	punct	_	SpacesAfter=\n
+

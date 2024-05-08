@@ -1,0 +1,18 @@
+x-veld:
+  chain:
+
+services:
+  veld:
+    extends:
+      file: ./veld_executable_15_udpipe/veld_tokenize.yaml
+      service: veld
+    volumes:
+      - ./data/inferences/input/:/veld/input/1/
+      - ./data/models/:/veld/input/2/
+      - ./data/inferences/output//:/veld/output/
+    environment:
+      input_text_file_path: "/veld/input/1/input.txt"
+      model_file_Path: "/veld/input/2/de_hdt-ud-train-a-1.model"
+      output_conllu_file_path: "/veld/output/output.conllu"
+    command: /veld/executable/tokenize.sh
+

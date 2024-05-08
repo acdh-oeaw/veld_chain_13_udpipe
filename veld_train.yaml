@@ -4,7 +4,7 @@ x-veld:
 services:
   veld:
     extends:
-      file: ./veld_executable_15_udpipe/veld_tokenize.yaml
+      file: ./veld_executable_15_udpipe/veld_train.yaml
       service: veld
     volumes:
       - ./data/training_data/:/veld/input/
@@ -12,5 +12,4 @@ services:
     environment:
       train_data_path: "/veld/input/de_hdt-ud-train-a-1.conllu"
       model_path: "/veld/output/de_hdt-ud-train-a-1.model"
-    command: /veld/executable/train.sh
 

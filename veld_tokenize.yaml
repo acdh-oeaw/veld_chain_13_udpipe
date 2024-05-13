@@ -14,7 +14,4 @@ services:
       input_text_file_path: "/veld/input/1/input.txt"
       model_path: "/veld/input/2/de_hdt-ud-train-a-1.model"
       output_conllu_file_path: "/veld/output/output.conllu"
-      tokenize: true
-      tag: true
-      parse: true
 

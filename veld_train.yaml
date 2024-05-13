@@ -10,6 +10,12 @@ services:
       - ./data/training_data/:/veld/input/
       - ./data/models/:/veld/output/
     environment:
-      train_data_path: "/veld/input/de_hdt-ud-train-a-1.conllu"
-      model_path: "/veld/output/de_hdt-ud-train-a-1.model"
+      train_data_path: "/veld/input/UD_English-GUM/en_gum-ud-train.conllu"
+      model_path: "/veld/output/self_trained.model"
+      tokenizer: true
+      tokenizer_epochs: 2
+      tagger: true
+      tagger_iterations: 2
+      parser: true
+      parser_iterations: 4
 

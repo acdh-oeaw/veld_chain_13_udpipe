@@ -4,7 +4,7 @@ x-veld:
 services:
   veld:
     extends:
-      file: ./veld_executable_15_udpipe/veld_tokenize.yaml
+      file: ./veld_executable_15_udpipe/veld_infer.yaml
       service: veld
     volumes:
       - ./data/inferences/input/:/veld/input/1/

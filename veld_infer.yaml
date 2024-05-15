@@ -11,7 +11,7 @@ services:
       - ./data/models/:/veld/input/2/
       - ./data/inferences/output/:/veld/output/
     environment:
-      input_text_file_path: "/veld/input/1/input.txt"
-      model_path: "/veld/input/2/de_hdt-ud-train-a-1.model"
-      output_conllu_file_path: "/veld/output/output.conllu"
+      in_txt_path: "/veld/input/1/input.txt"
+      in_model_path: "/veld/input/2/de_hdt-ud-train-a-1.model"
+      out_conllu_path: "/veld/output/output.conllu"
 

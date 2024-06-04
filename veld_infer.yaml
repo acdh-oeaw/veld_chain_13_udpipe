@@ -2,10 +2,10 @@ x-veld:
   chain:
 
 services:
-  veld:
+  veld_infer:
     extends:
       file: ./veld_code_15_udpipe/veld_infer.yaml
-      service: veld
+      service: veld_infer
     volumes:
       - ./data/inferences/input/:/veld/input/1/
       - ./data/models/:/veld/input/2/

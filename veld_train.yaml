@@ -1,7 +1,15 @@
 x-veld:
   chain:
-    description:
-    topics:
+    description: "train a udpipe model"
+    topics: 
+      - "NLP"
+      - "Machine learning"
+      - "tokenization"
+      - "lemmatization"
+      - "part of speech"
+      - "dependency parsing"
+      - "universal dependencies"
+      - "grammatical annotation"
 
 services:
   veld_train:

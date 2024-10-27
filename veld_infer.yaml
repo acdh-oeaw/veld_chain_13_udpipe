@@ -1,7 +1,16 @@
 x-veld:
   chain:
-    description:
+    description: "use a udpipe model to infer on raw text"
     topics:
+      - "NLP"
+      - "Machine learning"
+      - "tokenization"
+      - "lemmatization"
+      - "part of speech"
+      - "dependency parsing"
+      - "universal dependencies"
+      - "grammatical annotation"
+
 
 services:
   veld_infer:
